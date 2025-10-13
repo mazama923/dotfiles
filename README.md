@@ -1,12 +1,23 @@
 # dotfiles
 My dotfiles for macOS
 
-brew install stow
+My dotfiles are managed by folder and deployed via symbolic links using [stow](https://www.gnu.org/software/stow/manual/stow.html).
 
-brew bundle dump
+My git repo is located at the root of my user directory because my stow folder structure depends on this location.
 
-brew bundle install
+Dry run of symbolic links:
 
-brew install --cask font-jetbrains-mono-nerd-font
+````fish
+stow -nv */
+````
 
-brew autoupdate start 43200 --upgrade --cleanup --immediate --sudo
+Deploy symbolic links
+````fish
+stow */
+````
+
+To deploy the same development configuration as mine:
+
+````fish
+make all
+````

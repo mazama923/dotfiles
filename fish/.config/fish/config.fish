@@ -1,12 +1,5 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
 # ---- Remove message ----
 set -g fish_greeting
-
-# ---- Perl ----
-#eval (perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)
 
 # ---- Zoxide (better cd) ----
 zoxide init fish | source
@@ -50,10 +43,12 @@ abbr -a lg lazygit
 abbr -a ld lazydocker
 abbr -a gp "git pull"
 abbr -a gP "git push"
+abbr -a k kubectl
+abbr -a kf kafkactl
 
 # --- Functions ---
 function delds
     find . -name '.DS_Store' -type f -delete
     echo "Remove fucking .DS_Store"
 end
-# Command for add function 'funcsave delds'
+

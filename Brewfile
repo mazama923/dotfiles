@@ -17,6 +17,8 @@ brew "libavif"
 brew "php"
 # Dependency Manager for PHP
 brew "composer"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -124,6 +126,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
 # Utility to hide menu bar items
 cask "hiddenbar"
+# File archiver
+cask "keka"
 # Utility that shows the latest app updates
 cask "latest"
 # Privacy-first, open-source platform for knowledge sharing and management
@@ -134,8 +138,6 @@ cask "maccy"
 cask "mactex"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
 # Utility to uninstall apps and remove leftover files from old/uninstalled apps
 cask "pearcleaner"
 # Open source virtual/remote desktop application

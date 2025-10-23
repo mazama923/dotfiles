@@ -8,7 +8,9 @@ zoxide init fish | source
 source "$HOME/.cargo/env.fish"
 
 # ---- Ruby ----
-set -gx PATH /opt/homebrew/opt/ruby/bin $PATH
+set -gx LDFLAGS "-L/opt/homebrew/opt/ruby/lib"
+set -gx CPPFLAGS "-I/opt/homebrew/opt/ruby/include"
+set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/ruby/lib/pkgconfig"
 
 # ---- OpenJDK ----
 set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH

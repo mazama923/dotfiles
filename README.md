@@ -1,9 +1,8 @@
 # dotfiles
-My dotfiles for macOS
 
-My dotfiles are managed by folder and deployed via symbolic links using [stow](https://www.gnu.org/software/stow/manual/stow.html).
+My dotfiles for macOS are managed by folder and deployed via symbolic links using [stow](https://www.gnu.org/software/stow/manual/stow.html).
 
-My git repo is located at the root of my user directory because my stow folder structure depends on this location.
+This repo is located at the root of my user directory because my stow folder structure depends on this location.
 
 Dry run of symbolic links:
 

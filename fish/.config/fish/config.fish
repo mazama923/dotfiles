@@ -23,10 +23,10 @@ set -gx PATH (go env GOPATH)/bin $PATH
 source $HOME/.venv/bin/activate.fish
 
 # ---- BAT Themes ----
-set -x BAT_THEME "Catppuccin Latte"
+set -gx BAT_THEME "Catppuccin Latte"
 
 # ---- Config TERM ----
-set -x TERM xterm-256color
+set -gx TERM xterm-kitty
 
 # Alias Fish (Fish utilise `abbr` au lieu de `alias` pour les raccourcis)
 abbr -a ll 'eza --icons=always -l'

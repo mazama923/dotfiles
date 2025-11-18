@@ -55,3 +55,6 @@ function delds
     echo "Remove fucking .DS_Store"
 end
 
+# ---- Add the ssh key again on keychain ----
+ssh-add --apple-use-keychain ~/.ssh/id_rsa_perso 2>/dev/null
+

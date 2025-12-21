@@ -11,7 +11,13 @@ source "$HOME/.cargo/env.fish"
 set -gx LDFLAGS "-L/opt/homebrew/opt/ruby/lib"
 set -gx CPPFLAGS "-I/opt/homebrew/opt/ruby/include"
 set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/ruby/lib/pkgconfig"
-set -gx PATH /opt/homebrew/lib/ruby/gems/3.4.0/bin $PATH
+
+# Ruby Homebrew auto-path (Fish)
+if test -d (brew --prefix ruby)
+  set ruby_bin (brew --prefix ruby)/bin
+  set ruby_gems (brew --prefix ruby)/lib/ruby/gems/(ruby -e "print RUBY_VERSION")[1..3]/bin
+  fish_add_path $ruby_bin $ruby_gems
+end
 
 # ---- OpenJDK ----
 set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH

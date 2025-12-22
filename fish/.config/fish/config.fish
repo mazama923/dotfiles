@@ -12,6 +12,9 @@ set -gx LDFLAGS "-L/opt/homebrew/opt/ruby/lib"
 set -gx CPPFLAGS "-I/opt/homebrew/opt/ruby/include"
 set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/ruby/lib/pkgconfig"
 
+# Bison for Tebako
+export PATH="$(brew --prefix bison)/bin:$PATH"
+
 # Ruby Homebrew auto-path (Fish)
 if test -d (brew --prefix ruby)
   set ruby_bin (brew --prefix ruby)/bin

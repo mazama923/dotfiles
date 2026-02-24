@@ -1,1 +1,7 @@
 theme = "catppuccin_latte"
+
+[editor]
+auto-format = false
+
+[editor.file-picker]
+hidden = false

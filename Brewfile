@@ -2,12 +2,16 @@ tap "domt4/autoupdate"
 tap "dorcha-inc/orla"
 # Open-source formatting library for C++
 brew "fmt"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Extremely Fast Compression algorithm
 brew "lz4"
 # General-purpose data compression with high compression ratio
 brew "xz"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Language Server for Ansible Files
+brew "ansible-language-server"
 # Code searching, linting, rewriting
 brew "ast-grep"
 # Text-based UI library
@@ -28,14 +32,6 @@ brew "chruby"
 brew "fish"
 # Thin wrapper around chruby to make it work with the Fish shell
 brew "chruby-fish"
-# Library for encoding and decoding .avif files
-brew "libavif"
-# NaCl networking and cryptography library
-brew "libsodium"
-# General-purpose scripting language
-brew "php"
-# Dependency Manager for PHP
-brew "composer"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
 # Perl lib for reading and writing EXIF metadata
@@ -86,14 +82,16 @@ brew "kubectx"
 brew "kubelogin"
 # Translate LaTeX to RTF
 brew "latex2rtf"
-# Lazier way to manage everything docker
-brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Lets you manipulate the signature block in a Mach-O binary
 brew "ldid"
+# Library for encoding and decoding .avif files
+brew "libavif"
 # Portable Foreign Function Interface library
 brew "libffi"
+# NaCl networking and cryptography library
+brew "libsodium"
 # YAML Parser
 brew "libyaml"
 # Next-gen compiler infrastructure
@@ -102,12 +100,14 @@ brew "llvm"
 brew "lua"
 # Package manager for the Lua programming language
 brew "luarocks"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
+# Personal Knowledge Management System for the LSP
+brew "markdown-oxide"
 # Generate a markdown TOC (table of contents) with Remarkable
 brew "markdown-toc"
 # Fast, flexible, config-based cli for linting Markdown/CommonMark files
 brew "markdownlint-cli2"
+# Language Server Protocol for Markdown
+brew "marksman"
 # CLI for Mermaid library
 brew "mermaid-cli"
 # Fast and user friendly build system
@@ -164,6 +164,8 @@ brew "speedtest-cli"
 brew "stow"
 # Powerful free data recovery utility
 brew "testdisk"
+# Official tldr client written in Rust
+brew "tlrc"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Pretty print math in monospace fonts, using a TeX-like syntax
@@ -176,6 +178,8 @@ brew "vhs"
 brew "wget"
 # Access X11 clipboards from the command-line
 brew "xclip"
+# Language Server for Yaml Files
+brew "yaml-language-server"
 # Tracks most-used directories to make cd smarter
 brew "z"
 # General-purpose lossless data-compression library
@@ -184,16 +188,12 @@ brew "zlib"
 brew "zoxide"
 # Enable Windows-like alt-tab
 cask "alt-tab"
-# Multi-track audio editor and recorder
-cask "audacity"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Monitors common persistence locations
 cask "blockblock"
 # E-books management software
 cask "calibre"
-# Universal database tool and SQL client
-cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 cask "font-jetbrains-mono-nerd-font"

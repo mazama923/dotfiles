@@ -34,8 +34,8 @@ source $HOME/.venv/bin/activate.fish
 # ---- BAT Themes ----
 set -gx BAT_THEME "Catppuccin Latte"
 
-# ---- Config TERM ----
-set -gx TERM xterm-kitty
+# ---- Config TERM for kitty ----
+# set -gx TERM xterm-kitty
 
 # Alias Fish (Fish utilise `abbr` au lieu de `alias` pour les raccourcis)
 abbr -a ll 'eza --icons=always -l'

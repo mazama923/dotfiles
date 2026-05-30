@@ -1,0 +1,140 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "context_servers": {
+    "mcp-server-context7": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "context7_api_key": ""
+      }
+    }
+  },
+  "proxy": "",
+  "cli_default_open_behavior": "new_window",
+  "ssh_connections": [
+    {
+      "host": "ZimaBoard2",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/mazama"
+          ]
+        },
+        {
+          "paths": [
+            "/home/mazama/.config"
+          ]
+        },
+        {
+          "paths": [
+            "/home/mazama/.config/containers/systemd/./"
+          ]
+        },
+        {
+          "paths": [
+            "/ssd/busapps/caddy/./"
+          ]
+        },
+        {
+          "paths": [
+            "/ssd/busapps/wordpress/wp-html"
+          ]
+        }
+      ]
+    }
+  ],
+  "project_panel": {
+    "dock": "right",
+  },
+  "outline_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "git_panel": {
+    "dock": "right",
+    "tree_view": false,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "icon_theme": "Catppuccin Latte",
+  "edit_predictions": {
+    "codestral": {
+      "model": "codestral-latest",
+    },
+    "disabled_globs": [],
+    "provider": "copilot",
+  },
+  "agent": {
+    "default_profile": "write",
+    "tool_permissions": {
+      "default": "confirm",
+      "tools": {
+        "terminal": {
+          "always_allow": [
+            {
+              "pattern": "^toucan\\s+generate(\\s|$)"
+            },
+            {
+              "pattern": "^ls\\b"
+            }
+          ]
+        },
+        "copy_path": {
+          "default": "allow"
+        },
+        "create_directory": {
+          "always_allow": [
+            {
+              "pattern": "^mazama923\\.github\\.io/migration-toucan/"
+            },
+            {
+              "pattern": "^mazama923\\.github\\.io/Resources/"
+            }
+          ]
+        }
+      },
+    },
+    "dock": "left",
+    "default_model": {
+      "effort": "high",
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.6",
+      "enable_thinking": true,
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "ui_font_family": "OpenDyslexic Nerd Font",
+  "buffer_font_family": "OpenDyslexic Nerd Font",
+  "terminal": {
+    "font_family": "OpenDyslexic Nerd Font",
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": false,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "One Dark",
+  },
+}

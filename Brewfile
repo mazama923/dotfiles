@@ -1,5 +1,6 @@
 tap "domt4/autoupdate"
 tap "dorcha-inc/orla"
+tap "toucansites/toucan"
 # Open-source formatting library for C++
 brew "fmt"
 # Cryptography and SSL/TLS Toolkit
@@ -34,6 +35,8 @@ brew "fish"
 brew "chruby-fish"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Modern, maintained replacement for ls
@@ -62,24 +65,18 @@ brew "gnu-sed"
 brew "libevent"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Post-modern modal text editor
-brew "helix"
-# Configurable static site generator
-brew "hugo"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Implementation of malloc emphasizing fragmentation avoidance
 brew "jemalloc"
 # CLI for managing Apache Kafka
 brew "kafkactl"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
 # OpenID Connect authentication plugin for kubectl
 brew "kubelogin"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Translate LaTeX to RTF
 brew "latex2rtf"
 # Simple terminal UI for git commands
@@ -118,14 +115,10 @@ brew "minisign"
 brew "mkcert"
 # Deep clean and optimize your Mac
 brew "mole"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Libraries for security-enabled client and server applications
 brew "nss"
-# Programming language with focus on simplicity, performance and modern systems
-brew "odin"
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
 # Optimized BLAS library
@@ -136,8 +129,6 @@ brew "openjdk"
 brew "perl"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Package compiler and linker metadata toolkit
@@ -148,6 +139,8 @@ brew "pngpaste"
 brew "pre-commit"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Search tool like grep and The Silver Searcher
@@ -156,8 +149,6 @@ brew "ripgrep"
 brew "ruby"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
-# Safe, concurrent, practical language
-brew "rust"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -180,12 +171,16 @@ brew "wget"
 brew "xclip"
 # Language Server for Yaml Files
 brew "yaml-language-server"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # Tracks most-used directories to make cd smarter
 brew "z"
 # General-purpose lossless data-compression library
 brew "zlib"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Toucan is a static site generator written in Swift.
+brew "toucansites/toucan/toucan"
 # Enable Windows-like alt-tab
 cask "alt-tab"
 # Tool to flash OS images to SD cards & USB drives
@@ -194,20 +189,17 @@ cask "balenaetcher"
 cask "blockblock"
 # E-books management software
 cask "calibre"
+# Server and cloud storage browser
+cask "cyberduck"
 # Voice and text chat software
 cask "discord"
-cask "font-jetbrains-mono-nerd-font"
 cask "font-opendyslexic-nerd-font"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
 cask "google-chrome"
-# Utility to hide menu bar items
-cask "hiddenbar"
 # File archiver
 cask "keka"
-# GPU-based terminal emulator
-cask "kitty"
 # Utility that shows the latest app updates
 cask "latest"
 # Privacy-first, open-source platform for knowledge sharing and management
@@ -216,8 +208,6 @@ cask "logseq"
 cask "lulu"
 # Clipboard manager
 cask "maccy"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
 # Verify system files structure, run miscellaneous maintenance and more
@@ -240,7 +230,9 @@ cask "thaw"
 cask "transmission"
 # Virtual machines UI using QEMU
 cask "utm"
-# Open-source code editor
-cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+uv "-"
+uv "-"
+uv "mistral-vibe"
+uv "posting"

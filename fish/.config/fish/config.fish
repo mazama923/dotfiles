@@ -26,7 +26,7 @@ end
 set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH
 
 # ---- Go ----
-set -gx PATH (go env GOPATH)/bin $PATH
+# set -gx PATH (go env GOPATH)/bin $PATH
 
 # ---- env UV ----
 source $HOME/.venv/bin/activate.fish
@@ -37,7 +37,14 @@ set -gx BAT_THEME "Catppuccin Latte"
 # ---- Config TERM for kitty ----
 # set -gx TERM xterm-kitty
 
-# Alias Fish (Fish utilise `abbr` au lieu de `alias` pour les raccourcis)
+# ---- Config TERM ----
+set -gx TERM xterm-256color
+
+# ---- Config Editor ----
+set -gx EDITOR "zed --wait"
+set -gx VISUAL "zed --wait"
+
+# Alias Fish
 abbr -a ll 'eza --icons=always -l'
 abbr -a lla 'eza --icons=always -la'
 abbr -a ls 'eza --icons=always'
@@ -67,4 +74,3 @@ end
 
 # ---- Add the ssh key again on keychain ----
 ssh-add --apple-use-keychain ~/.ssh/id_rsa_perso 2>/dev/null
-

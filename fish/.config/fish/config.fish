@@ -8,19 +8,19 @@ zoxide init fish | source
 source "$HOME/.cargo/env.fish"
 
 # ---- Ruby ----
-set -gx LDFLAGS "-L/opt/homebrew/opt/ruby/lib"
-set -gx CPPFLAGS "-I/opt/homebrew/opt/ruby/include"
-set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/ruby/lib/pkgconfig"
+# set -gx LDFLAGS "-L/opt/homebrew/opt/ruby/lib"
+# set -gx CPPFLAGS "-I/opt/homebrew/opt/ruby/include"
+# set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/ruby/lib/pkgconfig"
 
 # Bison for Tebako
 export PATH="$(brew --prefix bison)/bin:$PATH"
 
 # Ruby Homebrew auto-path (Fish)
-if test -d (brew --prefix ruby)
-  set ruby_bin (brew --prefix ruby)/bin
-  set ruby_gems (brew --prefix ruby)/lib/ruby/gems/(ruby -e "print RUBY_VERSION")[1..3]/bin
-  fish_add_path $ruby_bin $ruby_gems
-end
+# if test -d (brew --prefix ruby)
+#   set ruby_bin (brew --prefix ruby)/bin
+#   set ruby_gems (brew --prefix ruby)/lib/ruby/gems/(ruby -e "print RUBY_VERSION")[1..3]/bin
+#   fish_add_path $ruby_bin $ruby_gems
+# end
 
 # ---- OpenJDK ----
 set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH
@@ -43,6 +43,7 @@ set -gx TERM xterm-256color
 # ---- Config Editor ----
 set -gx EDITOR "zed --wait"
 set -gx VISUAL "zed --wait"
+set -gx GIT_EDITOR "zed --wait"
 
 # Alias Fish
 abbr -a ll 'eza --icons=always -l'
@@ -50,10 +51,12 @@ abbr -a lla 'eza --icons=always -la'
 abbr -a ls 'eza --icons=always'
 abbr -a cd 'z'
 abbr -a cd.. 'cd ..'
+abbr -a e 'zed'
+abbr -a e. 'zed .'
 abbr -a n 'nvim'
 abbr -a n. 'n .'
-abbr -a vi 'nvim'
-abbr -a vim 'nvim'
+abbr -a vi 'zed'
+abbr -a vim 'zed'
 abbr -a hx. 'hx .'
 abbr -a view 'nvim -R'
 abbr -a vimdiff 'nvim -d'

@@ -26,10 +26,11 @@ Goal: help the user keep things **simple, effective, and robust**, following bes
 # GIT CONVENTIONS
 
 Always in English:
-- Commit messages: **Conventional Commits** format.
+- Commit messages: **Conventional Commits** format — **100% English, zero French words**.
   - Types: `feat`, `fix`, `chore`, `docs`, `refactor`, `test`, `ci`, `perf`, `style`.
   - Format: `<type>(<scope>): <short description>`
-  - Example: `feat(nginx): add rate limiting to upstream config`
+  - Good: `chore(fish): set GIT_EDITOR to zed, add zed aliases`
+  - Bad: `chore(fish): set GIT_EDITOR, aliases zed par défaut` ← French forbidden
 - Branch names: `kebab-case`, descriptive.
   - Example: `fix/pipeline-go-not-found`, `feat/add-crowdsec-bouncer`
 - Tag names: semver or date-based. Example: `v1.2.0`, `release-2024-06`

@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_servers": {
+    "mistral-vibe": {
+      "default_config_options": {
+        "mode": "auto-approve"
+      },
+      "type": "registry"
+    }
+  },
+  "language_models": {
+    "ollama": {
+      "api_url": "https://ollama.mazama923.duckdns.org"
+    }
+  },
   "context_servers": {
     "mcp-server-context7": {
       "enabled": true,
@@ -25,27 +38,82 @@
       "projects": [
         {
           "paths": [
-            "/home/mazama"
+            "/root"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "caddy",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/etc/caddy"
           ]
         },
         {
           "paths": [
-            "/home/mazama/.config"
+            "/root"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "wordpress",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/root"
           ]
         },
         {
           "paths": [
-            "/home/mazama/.config/containers/systemd/./"
+            "/var/www/yvoria.duckdns.org/./"
           ]
         },
         {
           "paths": [
-            "/ssd/busapps/caddy/./"
+            "/var/www/yvoria.duckdns.org/wp-content/themes/astra-child"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "samba",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/root"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "umami",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/root"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "tool",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/etc/sysctl.d/./"
           ]
         },
         {
           "paths": [
-            "/ssd/busapps/wordpress/wp-html"
+            "/etc/wireguard/./"
           ]
         }
       ]
@@ -70,6 +138,10 @@
   },
   "icon_theme": "Catppuccin Latte",
   "edit_predictions": {
+    "ollama": {
+      "model": "mistral:7b",
+      "api_url": "http://localhost:11434"
+    },
     "codestral": {
       "model": "codestral-latest",
     },
@@ -77,11 +149,28 @@
     "provider": "copilot",
   },
   "agent": {
+    "sandbox_permissions": {
+      "network_hosts": [
+        "api.wordpress.org",
+        "plugins.svn.wordpress.org",
+        "github.com",
+        "www.cgsecurity.org",
+        "pagespeed.web.dev",
+        "yvoria.duckdns.org",
+        "raw.githubusercontent.com",
+        "unpkg.com",
+        "api.github.com",
+        "registry.npmjs.org",
+        "nominatim.openstreetmap.org",
+        "staticmap.openstreetmap.de"
+      ]
+    },
     "default_profile": "write",
     "tool_permissions": {
       "default": "confirm",
       "tools": {
         "terminal": {
+          "default": "allow",
           "always_allow": [
             {
               "pattern": "^toucan\\s+generate(\\s|$)"
@@ -110,7 +199,7 @@
     "default_model": {
       "effort": "high",
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.6",
+      "model": "kimi-k3",
       "enable_thinking": true,
     },
     "favorite_models": [],

@@ -13,7 +13,7 @@ source "$HOME/.cargo/env.fish"
 # set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/ruby/lib/pkgconfig"
 
 # Bison for Tebako
-export PATH="$(brew --prefix bison)/bin:$PATH"
+# export PATH="$(brew --prefix bison)/bin:$PATH"
 
 # Ruby Homebrew auto-path (Fish)
 # if test -d (brew --prefix ruby)

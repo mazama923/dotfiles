@@ -4,9 +4,6 @@ set -g fish_greeting
 # ---- Zoxide (better cd) ----
 zoxide init fish | source
 
-# ---- Rust ----
-source "$HOME/.cargo/env.fish"
-
 # ---- Ruby ----
 # set -gx LDFLAGS "-L/opt/homebrew/opt/ruby/lib"
 # set -gx CPPFLAGS "-I/opt/homebrew/opt/ruby/include"
@@ -29,7 +26,10 @@ set -gx PATH /opt/homebrew/opt/openjdk/bin $PATH
 # set -gx PATH (go env GOPATH)/bin $PATH
 
 # ---- env UV ----
-source $HOME/.venv/bin/activate.fish
+set -l uv_activate "$HOME/.venv/bin/activate.fish"
+if test -f "$uv_activate"
+    source "$uv_activate"
+end
 
 # ---- BAT Themes ----
 set -gx BAT_THEME "Catppuccin Latte"
@@ -68,12 +68,6 @@ abbr -a gp "git pull"
 abbr -a gP "git push"
 abbr -a k kubectl
 abbr -a kf kafkactl
-
-# --- Functions ---
-function delds
-    find . -name '.DS_Store' -type f -delete
-    echo "Remove fucking .DS_Store"
-end
 
 # ---- Add the ssh key again on keychain ----
 ssh-add --apple-use-keychain ~/.ssh/id_rsa_perso 2>/dev/null

@@ -16,7 +16,7 @@ brew_install:
 	$(BREW) bundle
 	mkdir -p $${HOME}/Library/LaunchAgents
 	$(BREW) autoupdate delete
-	$(BREW) autoupdate start 43200 --upgrade --cleanup --immediate --sudo
+	$(BREW) autoupdate start 12h --upgrade --cleanup --immediate --sudo
 
 sudo_local:
 	@if [ -e /etc/pam.d/sudo_local ]; then \

@@ -150,6 +150,7 @@
   },
   "agent": {
     "sandbox_permissions": {
+      "allow_unsandboxed": true,
       "network_hosts": [
         "api.wordpress.org",
         "plugins.svn.wordpress.org",
@@ -199,7 +200,7 @@
     "default_model": {
       "effort": "high",
       "provider": "copilot_chat",
-      "model": "kimi-k3",
+      "model": "gpt-6-luna",
       "enable_thinking": true,
     },
     "favorite_models": [],

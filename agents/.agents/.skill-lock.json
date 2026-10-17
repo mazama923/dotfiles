@@ -90,6 +90,33 @@
       "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
       "installedAt": "2026-09-27T11:51:03.458Z",
       "updatedAt": "2026-09-27T11:51:03.458Z"
+    },
+    "idea-refine": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/idea-refine/SKILL.md",
+      "skillFolderHash": "14f474d8f51370ddd9127ff3d171810a1acf891a",
+      "installedAt": "2026-10-10T19:03:30.708Z",
+      "updatedAt": "2026-10-10T19:03:30.708Z"
+    },
+    "the-fool": {
+      "source": "tech-leads-club/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tech-leads-club/agent-skills.git",
+      "skillPath": "packages/skills-catalog/skills/(decision-making)/the-fool/SKILL.md",
+      "skillFolderHash": "328defa6c0876993d791e6b2d118b13f0c6679d4",
+      "installedAt": "2026-10-10T19:03:40.612Z",
+      "updatedAt": "2026-10-10T19:03:40.612Z"
+    },
+    "interview-me": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/interview-me/SKILL.md",
+      "skillFolderHash": "2a391376521dee060881b7edc676e58a564616f2",
+      "installedAt": "2026-10-10T19:03:46.785Z",
+      "updatedAt": "2026-10-10T19:03:46.785Z"
     }
   },
   "dismissed": {
@@ -106,6 +133,7 @@
     "kilo",
     "kimi-code-cli",
     "opencode",
+    "pi",
     "warp",
     "zed"
   ]

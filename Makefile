@@ -53,4 +53,4 @@ speed_dock:
 	defaults write com.apple.dock autohide-time-modifier -float 0.4; killall Dock
 
 export_brew:
-	$(BREW) bundle dump --describe --force
+	$(BREW) bundle dump  --force

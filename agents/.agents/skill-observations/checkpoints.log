@@ -1,0 +1,82 @@
+2026-10-25 15:08 [cabanon] workspace: created=observation-log,observation-log/archive,last-review-date.txt,cross-cutting-principles.md
+2026-10-25 15:08 loaded task-observer — 0 open observations
+2026-10-25 15:08 [cabanon] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 15:55 [cabanon] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 20:01 loaded task-observer — 0 open observations
+2026-10-25 20:01 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 20:02 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 20:02 loaded task-observer — 0 open observations
+2026-10-25 20:02 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25: no observations after 3 completed task items (Blogatto migration).
+2026-10-25: no observations at deliverable flush (Blogatto migration completed).
+2026-10-25 no observations: completed Blogatto content/tooling migration.
+2026-10-25 20:24 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 20:25 [mazama923.github.io] workspace: created=initialised
+2026-10-25 20:36 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 20:36 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 20:36 loaded task-observer — 0 open observations
+2026-10-25 20:36 loaded task-observer — 0 open observations
+2026-10-25 [mazama923.github.io] no observations: modifications ciblées sans écart méthodologique.
+2026-10-25 [mazama923.github.io] no observations: documentation and template localization completed without a reusable workflow finding.
+2026-10-25 21:51 loaded task-observer — 0 open observations
+2026-10-25 21:51 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 [mazama923.github.io] checkpoint: no observations — licence files and README licence section added and validated.
+2026-10-25 21:55 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 21:55 loaded task-observer — 0 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no observations — migration traces removed from documentation and IA guidance; validation passed.
+2026-10-25 21:57 [mazama923.github.io] session-start scan: files=0 parsed=0 principles=0
+2026-10-25 21:57 loaded task-observer — 0 open observations
+2026-10-25 21:57 loaded apple-design — 0 open observations
+2026-10-25 [mazama923.github.io] checkpoint: observation 0001 logged; palette noir-violet-lime appliquée et validée.
+2026-10-25 22:01 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:01 loaded task-observer — 1 open observations
+2026-10-25 22:01 loaded apple-design — 0 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — console d’atelier applied and validated.
+2026-10-25 22:03 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:03 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — instruction éditoriale IA ajoutée et validation réussie.
+2026-10-25 22:05 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:05 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — signature Ka-chow ajoutée à la consigne IA et validation réussie.
+2026-10-25 22:08 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:08 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — action Gleam invalide remplacée par erlef/setup-beam et workflows validés localement.
+2026-10-25 22:10 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:10 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — historique Git complet ajouté aux checkouts CI pour le scan Gitleaks.
+2026-10-25 22:12 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:12 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — Rebar3 ajouté au setup Erlang/Gleam des workflows.
+2026-10-25 22:18 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:18 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — protection main non appliquée, identité GitHub active sans droit administrateur.
+2026-10-25 22:22 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:22 loaded task-observer — 1 open observations
+2026-10-25 [mazama923.github.io] checkpoint: no new observations — protection de branche main appliquée et vérifiée via GitHub API.
+2026-10-25 22:27 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:27 loaded task-observer — 1 open observations
+2026-10-25 22:27 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-25 22:29 [mazama923.github.io] session-start scan: files=1 parsed=1 principles=0
+2026-10-26 13:49 loaded task-observer — 2 open observations
+2026-10-26 13:49 [mazama923.github.io] session-start scan: files=2 parsed=2 principles=0
+2026-10-26 [mazama923.github.io] checkpoint: no observations — discovery and implementation design complete
+2026-10-26 [mazama923.github.io] checkpoint: no observations — search and tag feature implementation plus validation complete
+2026-10-26 [mazama923.github.io] checkpoint: no observations — header search redesign and validation complete
+2026-10-26 14:15 loaded apple-design — 0 open observations
+2026-10-26 [mazama923.github.io] checkpoint: no observations — search UI redesign and validation complete
+2026-10-26 14:26 loaded task-observer — 2 open observations
+2026-10-26 14:26 [mazama923.github.io] session-start scan: files=2 parsed=2 principles=0
+2026-10-26 [mazama923.github.io] checkpoint: no observations — inspected diagram rendering and static-site integration.
+2026-10-26 [mazama923.github.io] checkpoint: no observations — diagram scan, draft creation, local renderer and documentation implemented.
+2026-10-26 [mazama923.github.io] checkpoint: no observations — validation, build and final content scan completed.
+2026-10-26 [mazama923.github.io] checkpoint: no observations — published diagram asset path was verified after the full build.
+2026-10-26 [mazama923.github.io] checkpoint: no observations — dev URL behavior investigation started.
+2026-10-26 [mazama923.github.io] checkpoint: no observations — dev-server link regression reproduced, fixed and verified.
+2026-10-26 20:37 [mazama923.github.io] session-start scan: files=2 parsed=2 principles=0
+2026-10-26 20:37 loaded task-observer — 2 open observations
+2026-10-26 20:37 loaded apple-design — 0 open observations
+2026-10-26 20:37 loaded web-design-guidelines — 0 open observations
+2026-10-26 [mazama923.github.io] checkpoint: no observations
+2026-10-26 [mazama923.github.io] checkpoint: no additional observations
+2026-10-26 [mazama923.github.io] checkpoint: no additional observations
+2026-10-26 [mazama923.github.io] checkpoint: no additional observations

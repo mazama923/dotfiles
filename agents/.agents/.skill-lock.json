@@ -96,9 +96,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
       "skillPath": "skills/idea-refine/SKILL.md",
-      "skillFolderHash": "14f474d8f51370ddd9127ff3d171810a1acf891a",
+      "skillFolderHash": "5dc24f2a92ec4ea91ad6cd56268e1bf0fef678bc",
       "installedAt": "2026-10-10T19:03:30.708Z",
-      "updatedAt": "2026-10-10T19:03:30.708Z"
+      "updatedAt": "2026-10-21T20:46:40.594Z"
     },
     "the-fool": {
       "source": "tech-leads-club/agent-skills",
@@ -117,6 +117,24 @@
       "skillFolderHash": "2a391376521dee060881b7edc676e58a564616f2",
       "installedAt": "2026-10-10T19:03:46.785Z",
       "updatedAt": "2026-10-10T19:03:46.785Z"
+    },
+    "apple-design": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/apple-design/SKILL.md",
+      "skillFolderHash": "cd509ae729c86487d352e17a26651217a4c25711",
+      "installedAt": "2026-10-21T21:00:22.919Z",
+      "updatedAt": "2026-10-21T21:00:22.919Z"
+    },
+    "task-observer": {
+      "source": "rebelytics/one-skill-to-rule-them-all",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/rebelytics/one-skill-to-rule-them-all.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "ac00bed07526475a6679a3dc018e145f5e0a672f",
+      "installedAt": "2026-10-25T13:21:52.299Z",
+      "updatedAt": "2026-10-25T13:21:52.299Z"
     }
   },
   "dismissed": {
@@ -128,6 +146,7 @@
     "codex",
     "cursor",
     "droid",
+    "fx",
     "gemini-cli",
     "github-copilot",
     "kilo",
